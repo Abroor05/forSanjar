@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #827474;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 20px;
+    color: white;
+}
+
+nav .container h2 {
+    cursor: pointer;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.imgs {
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 200px;
+}
+
+.imgs img {
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.hero .container h4 {
+    font-size: 18px;
+    color: black;
+}
+
+.hero .container span {
+    font-size: 18px;
+    color: #757575;
+}
+
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card span h2 {
+    font-size: 42px;
+    width: 300px;
+}
+
+.card h2 {
+    width: 200px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: aquamarine;
+}
+
+footer .container {
+    padding: 20px 0;
+}
+
+footer .container span {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+footer .container span i {
+    color: #64748B;
+}
+
+footer .container span i:hover {
+    color: blue;
+}
+
+
+@media (max-width:476px) {
+    .container{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .imgs {
+        width: 200px;
+        height: 200px;
+    }
+
+    .card1 span{
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+}

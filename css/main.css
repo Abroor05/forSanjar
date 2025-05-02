@@ -12,6 +12,14 @@
     margin: 0 auto;
 }
 
+.container i {
+    cursor: pointer;
+}
+
+.container i:hover {
+    color: aqua;
+}
+
 nav {
     background-color: #827474;
 }
@@ -23,6 +31,10 @@ nav .container {
     padding: 20px 0;
     font-size: 20px;
     color: white;
+}
+
+nav .container span {
+    cursor: pointer;
 }
 
 nav .container h2 {

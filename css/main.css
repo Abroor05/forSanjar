@@ -70,10 +70,11 @@ nav .container h2 {
 
 }
 
-.card1 {
+.card1 span{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 500px;
 }
 
 .card span {
